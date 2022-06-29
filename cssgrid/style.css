@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../imagenes/black-room.jpg);
+    height:100vh;
+}
+
+header div h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+
+.nav {
+    background-color: gray;
+    height: 10vh;
+}
+
+.main {
+    background-image: url(../imagenes/papel\ textura.jpg);
+    height: 100%;
+}
+
+main div h2 {
+    color: white;
+}
+
+main div h3 {
+    color: white;
+}
+
+main p {
+    color: white;
+}
+
+section div img {
+    width: 20%;
+    height: auto;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+}
