@@ -20,10 +20,10 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-                  <a class="nav-link" href="./paginas/noticias.html">NOTICIAS</a>
-                  <a class="nav-link" href="./paginas/podcast.html">PODCAST</a>
-                  <a class="nav-link" href="./paginas/nosotros.html">NOSOTROS</a>
-                  <a class="nav-link" href="./paginas/contacto.html">CONTACTO</a>
+                  <a class="nav-link" href="./noticias.html">NOTICIAS</a>
+                  <a class="nav-link" href="./podcast.html">PODCAST</a>
+                  <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
                 </div>
               </div>
             </div>
@@ -31,15 +31,126 @@
 
           <section class="row">
 
-            <div class="col 12 d-flex justify-content-center mt-5">
-              <img src="../imagenes/LOGO RESCATE URBANO.png" alt="biker" class="w-50 h-75 rounded-5">
+            <div class="col 12 d-flex justify-content-center m-5">
+              <img src="../imagenes/CONTACTO.png" alt="biker" class="w-100 h-75 rounded-5 p-5 border border-warning" id="tarjeta">
             </div>
+
 
           </section>
 
     </header>
 
-    <main>
+    <main class="container-fluid main">
+
+      <h1 class="text-center py-3 w-100 text-center bg-info bg-opacity-10 border border-info border-start-0 rounded-end">CONTACTATE CON NOSOTROS Y SÉ PARTE</h1>
+
+      <section class="row">
+        <div class="col 12 m-5 mb-4 rounded p-5">
+            <img src="../imagenes/skater con celu contacto.jpg" alt="poniendose en contacto" class="w-100 rounded-5" id="tarjeta">
+        </div>
+      </section>
+
+      <h4 class="px-5">Vos también podes sumarte a este movimiento en avance y ser parte de la revolución de una generación; Marcando grandes diferencias con pequeños gestos, demostrando que si trabajamos en equipo, crecemos todos</h4>
+
+
+      <form class="row g-3 needs-validation" novalidate id="formulario">
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3 px-2">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            
+          </div>
+        </div>
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3 px-2">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            
+          </div>
+        </div>
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3 px-2">
+          <label for="validationCustomUsername" class="form-label">Correo</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3 px-2">
+          <label for="validationCustom03" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3 px-2">
+          <label for="validationCustom03" class="form-label">Provincia</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+        </div>
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3">
+          <label for="validationCustom03" class="form-label">Pais</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+        </div>
+        </div>
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+
+
+
+      <!-- <section class="row px-5">
+        <div class="py-3 input-group">
+          <span class="input-group-text">Nombre y Apellido</span>
+          <input type="text" aria-label="First name" class="form-control">
+          <input type="text" aria-label="Last name" class="form-control">
+        </div>
+      </section>
+
+      <section class="row px-5">
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3">
+
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Selecciona tu país</option>
+            <option value="1">Argentina</option>
+            <option value="2">Uruguay</option>
+            <option value="3">Brasil</option>
+            <option value="3">Chile</option>
+            <option value="3">Otro</option>
+          </select>
+
+        </div>
+
+      </section>
+
+      <section class="row px-5">
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3" id="formulario">
+          <label for="exampleFormControlInput1" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+      </section>
+      
+      <section class="row px-5">
+
+        <div class="col 12 col-sm-12 col-md-8 col-lg-6 col-xl-4 mb-3" id="formulario">
+          <label for="exampleFormControlTextarea1" class="form-label">Dejá un mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+      </section> -->
+
+     
+
+    
 
     </main>
     <footer class="container-fluid footer">
