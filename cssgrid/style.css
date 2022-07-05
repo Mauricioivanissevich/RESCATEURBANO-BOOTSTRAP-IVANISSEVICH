@@ -44,14 +44,19 @@ header video {
     mix-blend-mode: overlay;
 }
 
+nav {
+    position: relative;
+    z-index: 2;
+}
+
 
 .nav {
-    background-color: gray;
+    background-color: black;
     height: 10vh;
 }
 
 .main {
-    background-image: url(../imagenes/papel\ textura.jpg);
+    background-color: #1c1c1d;
     height: auto;
 }
 main h1 {
